@@ -1,0 +1,37 @@
+.navbar {
+  background-color: transparent;
+  color: black;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  padding: 20px; /* Reducido el padding */
+  height: auto; /* Cambiado a auto */
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px; /* Reducido el padding */
+  display: flex;
+  justify-content: space-around;
+  background-color: whitesmoke;
+  border-radius: 20px; /* Reducido el radio de borde */
+}
+
+li {
+  cursor: pointer;
+  padding: 10px 20px; /* Reducido el padding */
+  transition: background-color 0.3s ease;
+  font-size: 18px; /* Reducido el tamaño de fuente */
+}
+
+.component-container {
+  margin-top: 10px; /* Reducido el margen superior */
+}
+
+@media (max-width: 768px) {
+  ul {
+    display: flex;
+    width: auto;
+    flex-direction: column;
+  }
+}
